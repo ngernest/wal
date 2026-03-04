@@ -7,6 +7,13 @@
 
 Welcome to the Waveform Analysis Language (WAL) repository. This domain-specific language aims at enabling automated and sophisticated analysis of hardware waveforms. In WAL, hardware-specific things such as signals and simulation time are treated as first-class citizens of the language.
 
+# Local installation
+```bash
+$ uv venv wal_cache --python 3.10
+$ source wal_cache/bin/activate
+$ uv pip install pylibfst wal-lang
+```
+
 ## Installation from PyPi
 WAL is available from [PyPi](https://pypi.org/project/wal-lang/)!
 > pip install wal-lang --user
