@@ -1,10 +1,10 @@
 ;; This examples analyzes the uart->axi converter from https://github.com/fcayci/vhdl-axis-uart.
 (load "uart-axi.fst")
 
-(alias clk 'uut_rx.clk)
-(alias ready 'uut_rx.m_axis_tready)
-(alias valid 'uut_rx.m_axis_tvalid)
-(alias data 'uut_rx.m_axis_tdata)
+(alias clk uut_rx.clk)
+(alias ready uut_rx.m_axis_tready)
+(alias valid uut_rx.m_axis_tvalid)
+(alias data uut_rx.m_axis_tdata)
 
 (define byte-arrived 0)
 (define bytes-dropped 0)
